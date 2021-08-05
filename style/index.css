@@ -148,10 +148,13 @@ nav{
     flex-direction: column;
     width: 30%;
     text-align: center;
+    align-items: center;
 }
 .project{
     background-size: cover;
     background-repeat: no-repeat;
+    width:100%;
+    height:300px;
 }
 .crawfish{
     background-image:url('../images/crawfish.jpg');
