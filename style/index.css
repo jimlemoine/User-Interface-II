@@ -47,7 +47,7 @@ table {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -92,7 +92,7 @@ nav{
     display:flex;
     justify-content: space-between;
     padding: 4%;
-    background-color: lightsalmon;
+    background-color: #FBFFFB;
 }
 .headername{
     width:15%;
@@ -102,13 +102,14 @@ nav{
     font-size: 2.5rem;
     display:flex;
     justify-content: flex-end;
-    border:1px solid grey;
+
 }
 .links a{
     width:25%;
     text-align: center;
     color:grey;
     text-decoration: none;
+    border:1px solid grey;
 }
 .links a:hover{
     background-color: black;
@@ -119,7 +120,7 @@ nav{
 .top{
     display:flex;
     justify-content: center;
-    background-color: lightgray;
+    background-color: #FBFFFB;
 }
 .hero{
     display:flex;
@@ -137,10 +138,10 @@ nav{
 .projects {
     display:flex;
     flex-wrap:wrap;
-    justify-content: center;
+    justify-content: space-between;
     padding:1%;
     margin: 0 auto;
-    background-color: lightseagreen;
+    background-color: lightgoldenrodyellow;
 }
 .projects div{
     display: flex;
@@ -148,9 +149,27 @@ nav{
     width: 30%;
     text-align: center;
 }
-
-.project div img{
-    height:250px;
+.project{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.crawfish{
+    background-image:url('../images/crawfish.jpg');
+}
+.snowboard{
+    background-image: url('../images/snowboard.jpg');
+}
+.waterfall{
+    background-image: url('../images/waterfall.jpg');
+}
+.beach{
+    background-image: url('../images/beach.jpg');
+}
+.paddleboard{
+    background-image: url('../images/paddleboard.jpg');
+}
+.hiking{
+    background-image: url('../images/hiking.jpg');
 }
 
 /*Footer styles*/
