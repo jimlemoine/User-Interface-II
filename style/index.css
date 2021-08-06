@@ -150,7 +150,7 @@ nav{
     text-align: center;
     align-items: center;
 }
-.project{
+.projects div .project{
     background-size: cover;
     background-repeat: no-repeat;
     width:100%;
